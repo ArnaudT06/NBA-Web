@@ -1,0 +1,111 @@
+
+h1 {
+    font-size: 300%;
+     text-align: center;
+}
+h2 {
+    font-size: 200%;
+    text-align: center;
+}
+h3{
+	border-radius: 10px;
+    vertical-align: top;
+    margin: auto;
+	width: 30%;
+    height:100%;
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+    background-color: grey;
+}
+
+.article{
+
+
+	border-radius: 30px;
+    vertical-align: top;
+    margin: auto;
+	width: 30%;
+    height:100%;
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+    background-color: grey;
+}
+
+.comment{
+   
+
+    background-color: rgb(22, 133, 207);
+    border-radius: 30px;
+    vertical-align: top;
+    margin: auto;
+	width: 30%;
+    height:100%;
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+
+}
+
+body {
+    color:rgb(255, 255, 255);
+    background-color:white;
+    background-image:url(./GS.JPG);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+    }
+.article img {
+        width: 50%;
+     }
+
+br , p , li 
+{
+    color: white;
+}
+
+image{
+    width:900px;
+    height:196px;
+}
+
+
+
+.score {
+    width: calc(100% - 240px);
+    display: inline-block;
+    overflow-x: auto;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: calc(100% - 140px);  
+    font-size: .9rem;
+    
+}
+.match {
+    background-color: #fff;
+    border-left: 1px solid #eee;
+    display: inline-block;
+    font-family: Oswald,sans-serif;
+    padding: 8px;
+    position: relative;
+    vertical-align: top;
+    width: 130px;
+    text-align:center;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tscore,.team{
+    color:black;
+}
+.match .tscore{
+    text-align: right;
+}
+.match .team{
+    text-align: left;
+}
