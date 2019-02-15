@@ -1,0 +1,36 @@
+
+h1 {
+    font-size: 300%;
+    Background-Color: RGB(56 ,79, 113);
+    text-align: center;
+}
+h2 {
+    font-size: 200%;
+    Color: RGB(228 ,179, 16);
+}
+body {
+    color:black;
+    background-color:white;
+    background-image:url(./jordan.JPG);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+img {
+        width: 50%;
+     }
+
+br , p , li , th , td , label
+{
+    color: white;
+}
+
+label {
+    font-size: 200%;
+    Color: RGB(228 ,179, 16);
+    text-align: center;
+}
+ul label {
+    font-size: 100%;
+    text-align: center;
+}
